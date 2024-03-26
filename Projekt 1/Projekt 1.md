@@ -36,6 +36,7 @@ Następnie wykona prostą analizę ofert pracy pod kątem wynagrodzenia oraz tec
         * UWAGA: wynagrodzenie w formie godzinowej nalezy pomnozyć razy 168 (standardowa ilość godzin pracujących w miesiącu)
     * Waluta
     * Umiejętności/Technologie
+        * UWAGA: w przypadku it.pracuj.pl powinny to być jedynie umiejętności/technologie wymagane (expected) 
     * Kategoria
         * Data
         * BigData/Data Science
@@ -50,7 +51,7 @@ Następnie wykona prostą analizę ofert pracy pod kątem wynagrodzenia oraz tec
 4. Wykonanie analizy
     * Stworzenie raportu w postaci pliku JSON zawierającego dwie sekcje:
         * Umiejętności wraz z ilością wystąpień w ofertach np. {'SQL': 43, 'Databricks': 4}
-        * Lista ponizej zdefiniowanych stanowisk raz z informacjami o : ilości ofert na dane stanowisko, wynagrodzenie minimalne, wynagrodzenie maksymalne, średnie wynagrodzenie
+        * Lista poniżej zdefiniowanych stanowisk raz z informacjami o : ilości ofert na dane stanowisko, wynagrodzenie minimalne, wynagrodzenie maksymalne, średnie wynagrodzenie
             *  Stanowiska
                 * Junior Data Engineer
                 * [Mid/Regular] Data Engineer
@@ -71,8 +72,7 @@ Następnie wykona prostą analizę ofert pracy pod kątem wynagrodzenia oraz tec
     * Stworzenie wykresów
         * Wykres 10 najbardziej porządanych umiejętności/technologii
         ![Figure1](Figure_1.png)
-        * Wykres 10 najczęsciej poszukiwanych stanowisk wraz z minimalnym,
-        maksymalnym oraz średnim wynagrodzeniem
+        * Wykres 12 wyżej ujętych stanowisk z informacjami o minimalnym, maksymalnym oraz średnim wynagrodzeniu.
         ![Figure2](Figure_2.png)
 
 5. Co ma się znalezc w repozytorium?
