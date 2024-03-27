@@ -35,7 +35,8 @@ Następnie wykona prostą analizę ofert pracy pod kątem wynagrodzenia oraz tec
     * Firma
     * Wynagrodzenie minimalne
     * Wynagrodzenie maksymalne
-        * UWAGA: wynagrodzenie w formie godzinowej nalezy pomnozyć razy 168 (standardowa ilość godzin pracujących w miesiącu)
+        * wynagrodzenie w formie godzinowej nalezy pomnozyć razy 168 (standardowa ilość godzin pracujących w miesiącu)
+        * wynagrodzenie powinno być podane jako kwota brutto: jeżeli podana jest stawka godzinowa netto, należy doliczyć VAT.
     * Waluta
     * Umiejętności/Technologie
         * UWAGA: w przypadku it.pracuj.pl powinny to być jedynie umiejętności/technologie wymagane (expected) 
