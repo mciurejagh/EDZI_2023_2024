@@ -29,8 +29,10 @@ Następnie wykona prostą analizę ofert pracy pod kątem wynagrodzenia oraz tec
 
 2. Stworzenie modelu danych zawierającego:
     * ID oferty (wewnętrznie przypisane)
-    * Źródło
+    * Źródło (it.pracuj.pl/justjoin.it)
+    * Link do ogłoszenia
     * Stanowisko
+    * Firma
     * Wynagrodzenie minimalne
     * Wynagrodzenie maksymalne
         * UWAGA: wynagrodzenie w formie godzinowej nalezy pomnozyć razy 168 (standardowa ilość godzin pracujących w miesiącu)
@@ -70,9 +72,9 @@ Następnie wykona prostą analizę ofert pracy pod kątem wynagrodzenia oraz tec
                 * Senior Data Architect
 
     * Stworzenie wykresów
-        * Wykres 10 najbardziej porządanych umiejętności/technologii
+        * Wykres 10 najbardziej porządanych umiejętności/technologii na podstawie zebranych ofert pracy
         ![Figure1](Figure_1.png)
-        * Wykres 12 wyżej ujętych stanowisk z informacjami o minimalnym, maksymalnym oraz średnim wynagrodzeniu.
+        * Wykres 12 wyżej ujętych stanowisk z informacjami o minimalnym, maksymalnym oraz średnim wynagrodzeniu na podstawie zebranych ofert pracy
         ![Figure2](Figure_2.png)
 
 5. Co ma się znalezc w repozytorium?
